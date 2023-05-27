@@ -15,7 +15,8 @@ const Products = () => {
                 console.log(error)
             }
         }
-        fetchData();    
+        fetchData();
+        console.log(a)
     },[])
 
     // useEffect(()=>{
