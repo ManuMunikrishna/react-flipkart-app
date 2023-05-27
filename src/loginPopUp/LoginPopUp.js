@@ -1,5 +1,6 @@
 // import { useState } from "react";
 import "./LoginPopUp.css";
+import { Link } from "react-router-dom";
 
 export default function LoginPopUp(props, setshowLoginPopUp, closePopUp) {
   return props.trigger ? (
@@ -23,7 +24,7 @@ export default function LoginPopUp(props, setshowLoginPopUp, closePopUp) {
                 By continuing, you agree to Flipkart's Terms of Use and Privacy
                 Policy.
               </p>
-              <button className="login-Btn">Request OTP</button>
+              <Link to="/home"  className="login-Btn">Request OTP</Link>
             </div>
             <button
               onClick={() => props.setTrigger(false)}

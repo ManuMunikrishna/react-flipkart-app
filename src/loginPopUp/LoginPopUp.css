@@ -76,6 +76,9 @@
 }
 
 .login-Btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   background-color: #fb641b;
   height: 50px;

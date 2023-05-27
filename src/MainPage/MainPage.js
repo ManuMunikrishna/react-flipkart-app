@@ -17,7 +17,7 @@ export default function MainPage() {
       <LoginPopUp trigger={showLoginPopUp} setTrigger={setshowLoginPopUp}>
         <LoginPopUp />
       </LoginPopUp>
-      {/* {showLoginPopUp && <LoginPopUp />} */}
+      {/* {showLoginPopUp && <LoginPopUp />} */} 
     </div>
   );
 }
